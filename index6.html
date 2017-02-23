@@ -1,0 +1,26 @@
+<html>
+<head><title>Machine Problem 4</title>
+	<script language = "javascript" type = "text/javascript">
+	<!--
+	function Grade() {
+		var grade = prompt("Enter your Grade:");
+		if((grade > 100) || (grade < 0)){
+			Grade();
+		}else{
+		if(grade >= 50){
+			document.write("Passed");
+			setTimeout("location.reload(true)", 3000);
+		}
+		else{
+			document.write("Failed");
+			setTimeout("location.reload(true)", 3000);
+		}
+	}
+	}
+	//-->
+	</script>	
+</head>
+<body>
+	<input type = "button" value = "Evaluate your Grade" onclick = "Grade()"/>
+</body>
+</html>	 
